@@ -1,0 +1,70 @@
+#wrapper1, #wrapper2
+{
+	margin-top: 20px;
+	min-height: 50%;
+	width: 47%;
+	border: 1px solid black;
+	position: relative;
+}
+
+#wrapper1
+{
+	float: left;
+	margin-left: 20px;
+}
+
+#wrapper2
+{
+	float: right;
+	margin-right: 20px;
+}
+
+#wrapper1 span, #wrapper2 span
+{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+}
+
+.switch-wrapper
+{
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+#demo
+{
+	display: inline-block;
+	position: relative;
+	float: right;
+	top: 10px;
+	right: 20px;
+}
+
+#wrapper3, #wrapper4
+{
+	min-height: 40%;
+	width: 47%;
+	border: 1px solid black;
+    position: fixed;
+    bottom: 20px;
+}
+
+#wrapper3
+{
+	float: left;
+	margin-left: 20px;
+}
+
+#wrapper4
+{
+	float: right;
+	right: 20px;
+}
+
+svg
+{
+	width:90%;
+}

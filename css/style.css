@@ -1,0 +1,53 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+}
+
+body
+{
+	overflow-y:hidden;
+}
+
+.circle
+{
+	cursor: move;
+	text-align: center;
+	font-size:90%;
+	border: 1px solid #234e5e;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	zoom: 1;
+     -moz-transform: scale(1)
+}
+
+.orangecolour
+{
+	background-color: orange;
+}
+
+.greencolour
+{
+	background-color: green;
+}
+
+.redcolour
+{
+	background-color: red;
+}
+
+.yellowcolour
+{
+	background-color: yellow;
+}
+
+.blackcolour
+{
+	background-color: black;
+}
+
+.bluecolour
+{
+	background-color: blue;
+}
